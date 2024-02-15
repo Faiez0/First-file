@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: nb ;
+}
+a{
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1 {
+  height: 100vh;
+  width: 100%;
+  /* background-color: #dadada;  */
+  position: relative;
+}
+
+
+  
+   /*                           features  */
+  
+   .box_1{
+    margin: 150px 0;
+    float: left;
+    width: 32%;
+    padding: 50px;
+    text-align: center;
+    background: url(../booking/photos/seafood.jpg) no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.8s ;
+    height: 250px;
+    font-weight: 500;
+  }
+  
+
+  .box_1:hover {
+    color:  rgb(10, 7, 1);
+    border: 1px solid rgb(10, 1, 1) ;
+    opacity: 0.9;
+  }
+  
+  .box_2{
+    margin: 150px 0px 150px 20px;
+    float: left;
+    width: 32%;
+    padding: 50px;
+    text-align: center;
+    background: url(../booking/photos/Room-.jpg) no-repeat center center/cover;
+    color: rgb(211, 236, 236);
+    transition-duration: 0.8s;
+    overflow: hidden;
+    height: 250px;
+  }
+
+  .box_2:hover{
+    color:  rgb(236, 131, 123);
+    border: 1px solid black;
+    opacity: 0.9;
+  }
+
+  .box_3{
+    margin: 150px 0;
+    float: right;
+    width: 32%;
+    padding: 50px;
+    text-align: center;
+    background: url(../booking/photos/image2.jpg) no-repeat center center/cover;
+    color: rgb(3, 16, 27);
+    transition-duration: 0.8s;
+    height: 250px;
+  }
+
+  .box_3:hover{
+    color: rgb(211, 236, 236);
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.9;
+    
+  }
+
+  .text{
+    font-weight: 900;
+  }
+
+  .bok{
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(2, 2, 29);
+    font-size: larger;
+    transition-duration: 0.8s;
+  }
+
+  .bok:hover{
+    background-color: aliceblue;
+    color: rgb(2, 2, 29);
+  }
+  
+  .menu{
+    width: 100%; padding: 0 20px; margin-top: 50px 0 0 0;
+    text-align: center;
+    float: right;
+  }
+  @media (max-width:1000px) {
+
+  .box_2{
+    float: none;
+    width: 100%;
+    padding: 50px;
+    transition-duration: 0.8s;
+    margin: 10px;
+  }
+  
+  .box_1{
+    float: none;
+    width: 100%;
+    padding: 50px;
+    transition-duration: 0.8s;
+    margin: 80px 10px 10px 10px;
+
+}
+
+.box_3{
+  float: none;
+  width: 100%;
+  padding: 50px;
+  transition-duration: 0.8s;
+  margin: 10px;
+
+}}

@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body{
+    line-height: 1.7em;
+  }
+
+  /* Show case */
+.showcase{
+    background: url(../aboutus/photo/about.jpg) no-repeat center center/cover;
+    height: 480px;
+    justify-content: center;
+  }
+  
+  .showcase_contant{
+    color: rgb(209, 220, 250);
+    text-align: center;
+    padding-top: 200px;
+  }
+  .para_1{
+    font-size: 40px;
+    line-height: 1.2em; 
+    font-weight: bolder;
+  }
+  
+  .primary_key{
+    color: rgb(250, 200, 200);
+  }
+  .lead_para{
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+    /*                        Show case responsive               */
+    @media (max-width:800px) {
+
+.showcase{
+  background: url(../aboutus/photo/about.jpg) no-repeat center center/cover;
+  height: 380px;
+  justify-content: center;
+}
+
+.showcase_contant{
+  color: rgb(209, 220, 250);
+  text-align: center;
+  padding-top: 120px;
+}
+.para_1{
+  font-size: 30px;
+  line-height: 1.2em; 
+  font-weight: bolder;
+}
+
+.primary_key{
+  color: rgb(250, 200, 200);
+}
+.lead_para{
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+    }
+
+ /* <!--       --------------------------about-------------------------                    --> */
+
+  .main_d{
+    width: 90%;
+      margin: auto; 
+      justify-content: center;
+   }
+   .d_1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+   }
+   .d_2{
+    float: left;
+    width: 50%;
+    font-size: larger;
+    margin: 0;
+    padding-bottom: 10px;
+   }
+   .d_3{
+    float: right;
+    width: 47%;
+    height: 430px;
+    background: url(../aboutus/photo/image7.jpg) no-repeat center center/cover;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 2, 2, 0.363), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+   }
+   .d_4{
+    width: 100%;
+    font-size: larger;
+    margin: 10px;
+    display: flex;
+   }
+   
+   /* <!--       --------------------------about responsive -------------------------                    --> */
+       
+   @media (max-width:800px) {
+
+   
+    .main_d{
+       width: 99%;
+        margin: 10px;
+    }
+   .d_2{
+    font-size: larger;
+    margin: 0;
+    padding-bottom: 10px;
+    width: 100%;
+   }
+   .d_3{
+    display: flex;
+    float: none;
+    width: 80%;
+    height: 250px;
+    background: url(../aboutus/photo/image1.jpg) no-repeat center center/cover;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 2, 2, 0.363), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    margin: auto;
+   }
+   .d_4{
+    width: 100%;
+    font-size: larger;
+    margin: 10px;
+   }
+   }
+
+  /* MAP */
+ 
+
+.map_container h2{
+  margin: 30px auto;
+  text-align: center;
+  justify-content: center;
+  color: rgb(4, 36, 65);
+  font-size: 30px;
+}
+
+iframe{
+  width: 100%;
+  max-height: 400px;
+  min-height: 100px;
+  /* filter: invert(100%); */
+}
+
+/*                      end                  */
+.h_end{
+  padding-top: 30px;
+  background-color: rgb(0, 0, 0);
+}
+.h_end h1{
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(117, 112, 153);
+  padding: 0%;
+}
+
+.h_end p{
+  text-align: center;
+  justify-content: center;
+  color: rgb(117, 112, 153);
+}
+
+
+.h_end pre{
+  text-align: center;
+  justify-content: center;
+}
+
+.end{
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+}
+
+.h2_end{ 
+  color: white;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+}
