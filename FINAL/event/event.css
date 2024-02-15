@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body{
+    line-height: 1.7em;
+  }
+  p{
+    margin: 10px 0;
+  }
+
+  /* Show case */
+.showcase{
+    background: url(../event/photo/e4.jpg) no-repeat center center/cover;
+    height: 420px;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+  .showcase_contant{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 200px;
+
+  }
+  .para_1{
+    font-size: 45px;
+    line-height: 1.2em; 
+    font-weight: bolder;
+    margin: 0;
+    text-shadow: -1px 1px 1px #faf7f7;
+  }
+  
+  .primary_key{
+    color: rgb(44, 44, 44);
+  }
+  .lead_para{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #faf7f7;
+  }
+
+.p1{
+  float: left;
+  width: 90%;
+}
+
+.sec1{
+  background-color: rgb(255, 243, 228);
+}
+
+
+/* menu */
+.primary_key2{
+  font-size: xx-large;
+  color: rgb(0, 0, 0);
+}
+
+.fac_info{
+  height: 300px;
+  margin: 0 15% 0 15%;
+  background: rgb(255, 246, 215);
+  color: rgb(0, 0, 0);
+}
+
+
+.fac1_image{
+  float: left;
+  width: 50%;
+  background: url(../event/photo/e2.jpg) center center/cover ;
+  min-height: 100%;
+  margin: 0%;
+}
+
+.fac_para1{
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding: 30px 20px;
+  overflow: hidden;
+  height: 100%;
+}
+.fac_para{
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding: 30px 20px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.more_btn{
+  display: inline-block;
+  font-size: 22px;
+  color: rgb(216, 148, 1);
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  transition-duration: 0.5s;
+  border: 1px solid rgb(216, 148, 1);
+}
+
+.more_btn:hover{
+  background-color: rgb(218, 189, 96);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.fac2_image{
+  float: right;
+  width: 50%;
+  background: url(../event/photo/e7.jpg) center center/cover ;
+  min-height: 100%;
+  margin: 0%;
+  padding: 0;
+}
+
+.fac2_para{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 30px 20px;
+  overflow: hidden;
+  height: 100%;
+}
+.backg h2{
+  margin: 0%;
+}
+
+.backg div{
+  padding: 2%;
+}
+
+.fac3_image{
+  float: left;
+  width: 50%;
+  background: url(../event/photo/e_1.jpg) center center/cover ;
+  min-height: 100%;
+  margin: 0%;
+}
+
+
+.fac4_image{
+  float: right;
+  width: 50%;
+  background: url(../event/photo/e5.jpg) center center/cover ;
+  min-height: 100%;
+  margin: 0%;
+  padding: 0;
+}
+
+.backg h2{
+  margin: 0%;
+}
+
+.backg div{
+  padding: 2%;
+}
+
+.fac5_image{
+  float: left;
+  width: 50%;
+  background: url(../event/photo/e8.jpg) center center/cover ;
+  min-height: 100%;
+  margin: 0%;
+}
+
+.fac6_image{
+  float: right;
+  width: 50%;
+  background: url(../event/photo/e9.jpg) center center/cover ;
+  min-height: 100%;
+  margin: 0%;
+  padding: 0;
+}
+
+.fac7_image{
+  float: left;
+  width: 50%;
+  background: url(../event/photo/e3.jpg) center center/cover ;
+  min-height: 100%;
+  margin: 0%;
+}
+/*  -------------------------------------------- menu  responsice -------------------------------------------------*/
+
+@media (max-width:600px) {
+
+  .fac_info{
+    height: 290px;
+    margin: 0;
+    background: rgb(255, 246, 215);
+    color: rgb(0, 0, 0);
+  }
+}
+
+
+
+@media (max-width:800px) {
+
+
+/*  -------------------------------------------- menu -------------------------------------------------*/
+.primary_key2{
+font-size: x-large;
+color: rgb(0, 0, 0);
+}
+
+.fac1_image{
+width: 100%;
+background: url(../event/photo/e2.jpg) center center/cover ;
+}
+
+.fac_para1{
+width: 100%;
+text-align: center;
+padding: 20px 20px;
+background: rgb(255, 246, 215);
+color: rgb(0, 0, 0);
+
+}
+.fac_para{
+width: 100%;
+text-align: center;
+padding: 20px;
+height: 100%;
+background: rgb(255, 246, 215);
+color: rgb(0, 0, 0);
+}
+
+.more_btn{
+display: inline-block;
+font-size: 22px;
+color: rgb(216, 148, 1);
+padding: 10px 15px;
+border: none;
+text-decoration: none;
+background-color: rgb(255, 255, 255);
+transition-duration: 0.5s;
+border: 1px solid rgb(216, 148, 1);
+}
+
+.more_btn:hover{
+  background-color: rgb(218, 189, 96);
+color: rgb(255, 255, 255);
+}
+
+.fac2_para{
+width: 100%;
+text-align: center;
+padding: 20px;
+height: 100%;
+background: rgb(255, 246, 215);
+color: rgb(0, 0, 0);
+}
+
+.fac2_image{
+width: 100%;
+background: url(../event/photo/e7.jpg) center center/cover ;
+}
+
+.fac3_image{
+width: 100%;
+background: url(../event/photo/e_1.jpg) center center/cover ;
+}
+
+.fac4_image{
+width: 100%;
+background: url(../event/photo/e5.jpg) center center/cover ;
+}
+
+.fac5_image{
+width: 100%;
+background: url(../event/photo/e8.jpg) center center/cover ;
+}
+
+.fac6_image{
+width: 100%;
+background: url(../event/photo/e9.jpg) center center/cover ;
+}
+
+.fac7_image{
+width: 100%;
+background: url(../event/photo/e3.jpg) center center/cover ;
+}
+
+.maar_b{
+margin-bottom: 7px;
+}
+
+}
+
+/* information */
+
+.h_end{
+  padding-top: 30px;
+  background-color: rgb(0, 0, 0);
+}
+.h_end h1{
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(117, 112, 153);
+  padding: 0%;
+}
+
+.h_end p{
+  text-align: center;
+  justify-content: center;
+  color: rgb(117, 112, 153);
+}
+
+
+.h_end pre{
+  text-align: center;
+  justify-content: center;
+}
+
+.end{
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+}
+
+.h5_end{ 
+  color: white;
+  margin: 2px;
+  text-align: center;
+  justify-content: center;
+}
